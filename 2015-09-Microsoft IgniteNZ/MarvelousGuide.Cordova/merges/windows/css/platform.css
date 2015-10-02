@@ -1,0 +1,9 @@
+﻿body {
+    -ms-content-zooming: none;
+    -ms-touch-action: none;
+}
+
+* { 
+    /* Metro/Modern/Flat */
+    border-radius: 0 !important;
+}

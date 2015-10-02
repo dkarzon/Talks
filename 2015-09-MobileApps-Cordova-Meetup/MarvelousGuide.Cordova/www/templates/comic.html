@@ -1,0 +1,16 @@
+<ion-view view-title="{{ comic.title }}">
+    <ion-content>
+        <div class="list card">
+
+            <div class="item item-text-wrap">
+                <h2 class="mv-comictitle">{{ comic.title }}</h2>
+            </div>
+
+            <div class="item item-image">
+                <img ng-src="{{ buildThumbnailPath(comic.thumbnail) }}">
+            </div>
+
+        </div>
+
+    </ion-content>
+</ion-view>

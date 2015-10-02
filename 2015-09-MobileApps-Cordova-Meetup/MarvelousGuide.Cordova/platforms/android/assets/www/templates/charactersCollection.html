@@ -1,0 +1,21 @@
+<ion-view view-title="Characters">
+    <ion-header-bar class="bar-light bar-subheader">
+        <input type="search"
+               placeholder="Filter characters..."
+               ng-model="search">
+        <button ng-if="search.length"
+                class="button button-icon ion-android-close input-button mv-searchclear"
+                ng-click="clearSearch()"></button>
+    </ion-header-bar>
+    <ion-content>
+        <ion-list>
+            <ion-item collection-repeat="c in characters | searchCharacters:search"
+                      href="#/app/character/{{c.id}}"
+                      class="item item-thumbnail-left">
+                <img ng-src="{{buildThumbnailPath(c.thumbnail)}}">
+                <h2>{{c.name}}</h2>
+                <p>{{c.id}}</p>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

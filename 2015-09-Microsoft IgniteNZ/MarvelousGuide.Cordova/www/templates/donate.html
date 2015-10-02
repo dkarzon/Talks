@@ -1,0 +1,22 @@
+<ion-view view-title="Donate">
+  <ion-content>
+      <div class="card">
+          <div class="item item-text-wrap" ng-click="doDonate1()">
+              Donate 1
+          </div>
+      </div>
+
+      <div class="card">
+          <div class="item item-text-wrap" ng-click="doDonate2()">
+              Donate 2
+          </div>
+      </div>
+
+      <div ng-show="message" class="mv-donatemessage">
+          <div class="button button-outline button-dark">
+              Thank you for purchasing <strong>{{message}}</strong>
+          </div>
+      </div>
+
+  </ion-content>
+</ion-view>
