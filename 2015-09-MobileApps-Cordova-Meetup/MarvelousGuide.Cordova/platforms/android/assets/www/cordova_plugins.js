@@ -1,20 +1,6 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
-        "file": "plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js",
-        "id": "org.apache.cordova.inappbrowser.inappbrowser",
-        "clobbers": [
-            "window.open"
-        ]
-    },
-    {
-        "file": "plugins/cc.fovea.cordova.purchase/www/store-android.js",
-        "id": "cc.fovea.cordova.purchase.InAppBillingPlugin",
-        "clobbers": [
-            "store"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-whitelist/whitelist.js",
         "id": "cordova-plugin-whitelist.whitelist",
         "runs": true
@@ -46,17 +32,31 @@ module.exports = [
         "clobbers": [
             "CameraPopoverHandle"
         ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js",
+        "id": "org.apache.cordova.inappbrowser.inappbrowser",
+        "clobbers": [
+            "window.open"
+        ]
+    },
+    {
+        "file": "plugins/cc.fovea.cordova.purchase/www/store-android.js",
+        "id": "cc.fovea.cordova.purchase.InAppBillingPlugin",
+        "clobbers": [
+            "store"
+        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "org.apache.cordova.console": "0.2.13",
-    "org.apache.cordova.inappbrowser": "0.6.0",
-    "cc.fovea.cordova.purchase": "4.0.0",
+    "cordova-plugin-crosswalk-webview": "1.3.1",
     "cordova-plugin-whitelist": "1.1.1-dev",
     "org.apache.cordova.camera": "0.3.6",
-    "cordova-plugin-crosswalk-webview": "1.3.1"
+    "org.apache.cordova.console": "0.2.13",
+    "org.apache.cordova.inappbrowser": "0.6.0",
+    "cc.fovea.cordova.purchase": "4.0.0"
 }
 // BOTTOM OF METADATA
 });

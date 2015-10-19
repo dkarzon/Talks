@@ -50,13 +50,7 @@
         }
     },
     "installed_plugins": {
-        "org.apache.cordova.console": {
-            "PACKAGE_NAME": "Marvelous Guide"
-        },
-        "org.apache.cordova.inappbrowser": {
-            "PACKAGE_NAME": "Marvelous Guide"
-        },
-        "cc.fovea.cordova.purchase": {
+        "cordova-plugin-crosswalk-webview": {
             "PACKAGE_NAME": "Marvelous Guide"
         },
         "cordova-plugin-whitelist": {
@@ -65,7 +59,13 @@
         "org.apache.cordova.camera": {
             "PACKAGE_NAME": "Marvelous Guide"
         },
-        "cordova-plugin-crosswalk-webview": {
+        "org.apache.cordova.console": {
+            "PACKAGE_NAME": "Marvelous Guide"
+        },
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "Marvelous Guide"
+        },
+        "cc.fovea.cordova.purchase": {
             "PACKAGE_NAME": "Marvelous Guide"
         }
     },

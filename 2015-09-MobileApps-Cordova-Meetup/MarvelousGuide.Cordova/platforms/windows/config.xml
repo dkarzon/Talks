@@ -30,12 +30,13 @@
     <preference name="InAppBrowserStorageEnabled" value="True" />
     <preference name="SuppressesIncrementalRendering" value="True" />
     <access origin="http://gateway.marvel.com" />
-    <vs:plugin name="cc.fovea.cordova.purchase" src="https://github.com/j3k0/cordova-plugin-purchase.git" version="4.0.0">
-        <param name="BILLING_KEY" value="TEST" />
-    </vs:plugin>
     <vs:plugin name="cordova-plugin-whitelist" src="https://github.com/apache/cordova-plugin-whitelist.git" version="1.1.1-dev" />
     <vs:plugin name="org.apache.cordova.camera" version="0.3.6" />
     <preference name="xwalkVersion" value="14+" />
     <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
     <preference name="xwalkMode" value="embedded" />
+    <preference name="Fullscreen" value="True" />
+    <vs:plugin name="cc.fovea.cordova.purchase" src="https://github.com/dkarzon/cordova-plugin-purchase.git" version="4.0.0">
+        <param name="BILLING_KEY" value="TEST" />
+    </vs:plugin>
 </widget>

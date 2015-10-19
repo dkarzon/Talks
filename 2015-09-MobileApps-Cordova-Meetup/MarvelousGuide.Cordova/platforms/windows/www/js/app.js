@@ -51,7 +51,17 @@ angular.module('marvelous', ['ionic', 'marvelous.services', 'marvelous.controlle
         url: '/comics',
         views: {
             'menuContent': {
-                templateUrl: 'templates/comics.html'
+                templateUrl: 'templates/comics.html',
+                controller: 'ComicsCtrl'
+            }
+        }
+    })
+    .state('app.comicsCollection', {
+        url: '/comicsCollection',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/comicsCollection.html',
+                controller: 'ComicsCtrl'
             }
         }
     })

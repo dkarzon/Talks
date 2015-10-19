@@ -17,13 +17,6 @@
             "id": "org.apache.cordova.console"
         }
     },
-    "cc.fovea.cordova.purchase": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/j3k0/cordova-plugin-purchase.git",
-            "subdir": "."
-        }
-    },
     "cordova-plugin-whitelist": {
         "source": {
             "type": "git",
@@ -44,5 +37,12 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cc.fovea.cordova.purchase": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dkarzon/cordova-plugin-purchase.git",
+            "subdir": "."
+        }
     }
 }
